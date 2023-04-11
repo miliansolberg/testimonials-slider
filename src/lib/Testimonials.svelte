@@ -215,4 +215,17 @@
   .slide {
     cursor: pointer;
   }
+
+  @media (max-width: 1440px) {
+  .slider {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider {
+    max-width: 400px;
+  }
+}
+
 </style>

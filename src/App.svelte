@@ -13,4 +13,10 @@
   h1 {
     text-align: center;
   }
+  
+  @media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+}
 </style>
