@@ -190,7 +190,7 @@
 
   .slider {
     text-align: center;
-    background-color: wheat;
+    background-color: #16181c;
     height: 110px;
     border-radius: 20px;
     margin: auto;
@@ -216,16 +216,32 @@
     cursor: pointer;
   }
 
+  /* For large screens, wider than 1440px */
   @media (max-width: 1440px) {
-  .slider {
-    max-width: 600px;
+    .slider {
+      max-width: 720px;
+    }
   }
-}
 
-@media (max-width: 768px) {
-  .slider {
-    max-width: 400px;
+  /* For medium screens, between 1024px and 1440px */
+  @media (max-width: 1024px) {
+    .slider {
+      max-width: 600px;
+    }
   }
-}
+
+  /* For small screens, between 768px and 1024px */
+  @media (max-width: 768px) {
+    .slider {
+      max-width: 500px;
+    }
+  }
+
+  /* For extra small screens, less than 768px */
+  @media (max-width: 480px) {
+    .slider {
+      max-width: 300px;
+    }
+  }
 
 </style>
