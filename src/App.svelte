@@ -4,7 +4,8 @@
 
 <main>
   <div class="card">
-    <h1>Svelte Slider</h1>
+    <h1>Testimonials slider</h1>
+    <h2>Try hovering over it..</h2>
     <Testimonials />
   </div>
 </main>
